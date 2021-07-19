@@ -1,0 +1,33 @@
+{
+  "name": "Git-CZ-InstallAndUse",
+  "version": "1.0.0",
+  "description": "Author's Personal Commitizen Course",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "git cz  && git push origin master && standard-version && git push --follow-tags origin master"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue-sky-12138/Git-CZ-InstallAndUse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/blue-sky-12138/Git-CZ-InstallAndUse/issues"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^12.0.0",
+    "@commitlint/config-conventional": "^12.0.0",
+    "cz-conventional-changelog": "^3.3.0",
+    "husky": "^5.1.1",
+    "standard-version": "^9.1.1"
+  },
+  "config": {
+    "commitizen": {
+      "path": "D:/software/Nodejs/node_modules/cz-conventional-changelog"
+    }
+  },
+  "homepage": "https://github.com/blue-sky-12138/Git-CZ-InstallAndUse#readme"
+}
