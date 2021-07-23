@@ -8,9 +8,3 @@ All notable changes to this project will be documented in this file. See [standa
 ### Features
 
 * **readme:** first edition completed ([2aad73e](https://github.com/blue-sky-12138/Git-CZ-InstallAndUse/commit/2aad73e89e52801ec189a89778f5e27014e637d2))
-
-# [1.0.0](https://github.com/blue-sky-12138/Git-CZ-InstallAndUse/compare/v1.0.1...v1.0.0) (2021-07-19)
-
-
-
-# [1.0.0](https://github.com/blue-sky-12138/Git-CZ-InstallAndUse/compare/v1.0.1...v1.0.0) (2021-07-19)

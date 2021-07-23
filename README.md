@@ -90,7 +90,7 @@
 为了方便使用，可以将其写入package.json的scripts字段
 
 ```
-"release": "git cz  && git push origin master && standard-version && git push --follow-tags origin master"
+"release": "git cz  && git push && standard-version && git push --follow-tags"
 ```
 
 这样下次commit时只需要先add你要提交的文件并运行下列命令
@@ -116,7 +116,7 @@ npm run release
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "release": "git cz  && git push origin master && standard-version && git push --follow-tags origin master"
+    "release": "git cz  && git push && standard-version && git push --follow-tags"
   },
   
   "config": {
