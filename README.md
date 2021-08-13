@@ -116,6 +116,7 @@ npm run release
   
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "quick":"git cz  && git push && standard-version",
     "release": "git cz  && git push && standard-version && git push --follow-tags"
   },
   
